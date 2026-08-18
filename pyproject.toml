@@ -1,0 +1,23 @@
+[project]
+name = "1-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Donezeude", email = "ezeude.donald@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "pytest>=9.1.1",
+    "requests>=2.34.2",
+    "torch>=2.13.0",
+]
+
+[project.scripts]
+1-tools = "1_tools:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
