@@ -1,4 +1,4 @@
--e file:///home/don/workspace/python/ai_fund
+-e .
 anyio==4.14.2
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
